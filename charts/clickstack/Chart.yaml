@@ -3,17 +3,16 @@ name: clickstack
 description: >-
   A Helm chart for ClickStack - Full-stack observability with ClickHouse,
   OpenTelemetry, and HyperDX
-home: https://clickhouse.com/docs/use-cases/observability/clickstack
+home: https://github.com/scottabeall/clickhouse-operator
 sources:
-  - https://github.com/hyperdxio/hyperdx
-  - https://github.com/hyperdxio/helm-charts
+  - https://github.com/scottabeall/clickhouse-operator
 annotations:
   artifacthub.io/license: MIT
   artifacthub.io/links: |
     - name: Chart Source
-      url: https://github.com/hyperdxio/helm-charts
+      url: https://github.com/scottabeall/clickhouse-operator
     - name: Upstream Project
-      url: https://github.com/hyperdxio/hyperdx
+      url: https://github.com/scottabeall/clickhouse-operator
 type: application
 version: 2.1.1
 appVersion: 2.24.1
